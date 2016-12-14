@@ -1,0 +1,18 @@
+ URL:  http://www.programcreek.com/2014/05/leetcode-reverse-words-in-a-string-ii-java/
+  
+ Given an input string, reverse the string word by word. A word is defined as a sequence of non-space characters.
+
+The input string does not contain leading or trailing spaces and the words are always separated by a single space.
+
+For example,
+Given s = "the sky is blue",
+return "blue is sky the".
+
+Could you do it in-place without allocating extra space?
+
+1. ONE OF THE way to solve this question is to put the string in array word by word and print out the array in reverse order.
+    O(n) time complexity and O(n) space complexity 
+    
+2. SECOND WAY IS TO   input the string and get the length of the string and do the swapping of the words of the string using the 
+   half length of string as common denominator.
+    
